@@ -50,10 +50,9 @@ const HotDeals = () => {
     return (
         <div className=''>
             <div className='text-center'>
-                <h3 className='text-primary text-xl font-bold uppercase'>Hot Deals</h3>
-                <h2 className='text-4xl'>Hot Deals We Provide</h2>
+                <h3 className='text-3xl font-bold text-gray-800 md:text-5xl'>Hot Deals</h3>
             </div>
-            <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-12 mt-6'>
+            <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-12 mt-16'>
                 {
                     hotDeals.map(hotDeal => <HotDeal
                         key={hotDeal._id}
